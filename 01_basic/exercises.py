@@ -7,6 +7,8 @@ print("\nEjercicio 1: Imprimir mensajes")
 print("Escribe un programa que imprima tu nombre y tu ciudad en líneas separadas.")
 
 ### Completa aquí
+print("AlvaroCodes")
+print("Sevilla")
 
 print("--------------")
 
@@ -20,6 +22,12 @@ e = None
 
 ### Completa aquí
 
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
 print("--------------")
 
 print("\nEjercicio 3: Casting de tipos")
@@ -27,6 +35,15 @@ print("Convierte la cadena \"12345\" a un entero y luego a un float.")
 print("Convierte el float 3.99 a un entero. ¿Qué ocurre?")
 
 ### Completa aquí
+
+cadena = "12345"
+cadena = int(cadena)
+cadena = float(cadena)
+print(cadena)
+
+flotante = 3.99
+flotante = int(flotante)
+print(flotante)
 
 print("--------------")
 
@@ -38,6 +55,12 @@ print("Usa f-strings para imprimir una presentación.")
 
 ### Completa aquí
 
+nombre = "Alvaro"
+edad = 26
+altura = 1.80
+
+print(f"Hola! Me llamo {nombre} y tengo {edad} años, mido {altura} metros")
+
 print("--------------")
 
 print("\nEjercicio 5: Números")
@@ -45,3 +68,10 @@ print("1. Crea una variable con el número PI (sin asignar una variable)")
 print("2. Redondea el número con round()")
 print("3. Haz la división entera entre el número que te salió y el número 2")
 print("4. El resultado debería ser 1")
+
+### Completa aquí
+
+numero_pi = 3.14159
+numero_pi = round(numero_pi)
+resultado = numero_pi // 2
+print(resultado)
